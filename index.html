@@ -1,0 +1,551 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="telephone=no" name="format-detection" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <style>
+    .img-reset {
+      border: 0;
+      display: block;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .main {
+      background-color: #e2f4ff; 
+      background-image: url("https://raw.githubusercontent.com/aguzhevskaya/iq-option_img/main/bg.png");
+      background-position: top right;
+      background-repeat: no-repeat;
+      background-size: contain;
+      max-width: 1160px;
+    }
+    .pad-105-100 {
+      padding-top: 105px;
+      padding-left: 100px;
+    }
+    .pad-70-100 {
+      padding-top: 70px;
+      padding-left: 100px;
+    }
+    .intro__title {
+      font-size: 67px;
+      line-height: 87px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      -moz-text-size-adjust : 100%;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      color: #003dd8; 
+    }
+    .intro__title--span {
+      color: #ff0940;
+      font-weight: 900;
+    }
+    .intro__subtitle {
+      font-size: 36px;
+      line-height: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      -moz-text-size-adjust : 100%;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      color: #3c3e44; 
+    }
+    .pad-58-60 {
+      padding-top: 58px;
+      padding-bottom: 58px;
+      padding-right: 60px;
+      padding-left: 60px;
+
+    }
+    .content-table {
+      background-color: #ffffff;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    .pad-75-85-87-85 {
+      padding-top: 75px;
+      padding-right: 85px;
+      padding-left: 85px;
+      padding-bottom: 87px;
+    }
+    .pb-105 {
+      padding-bottom: 105px;
+    }
+    .content__title{
+      font-size: 44px;
+      font-weight: 700;
+      line-height: 51px;
+      font-family: Arial, Helvetica, sans-serif;
+      -moz-text-size-adjust : 100%;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      color: #003dd8;
+      padding-bottom: 58px;
+    }
+    .pb-30 {
+      padding-bottom: 30px;
+    }
+    .content__text {
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 46px;
+      font-family: Arial, Helvetica, sans-serif;
+      -moz-text-size-adjust : 100%;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      color: #3c3e44;
+      padding-bottom: 70px;
+    }
+    .column {
+      display: inline-block;
+      vertical-align: top;
+      max-width: 290px;
+    }
+
+  .column__text {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 32px;
+      font-family: Arial, Helvetica, sans-serif;
+      -moz-text-size-adjust : 100%;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      color: #3c3e44;
+  }
+  .message {
+    background-image: url("https://raw.githubusercontent.com/aguzhevskaya/iq-option_img/main/message-bg.jpg");
+    background-color: #e2f4ff;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom: 60px;
+    background-size: contain;
+  }
+  .message__text {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-text-size-adjust : 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    color: #ffffff;
+    background-color: #003dd8;
+
+  }
+  .message__link-wrap {
+    display: inline-block; 
+    vertical-align: top; 
+    width: 560px; 
+    background-color: #ffffff; 
+    border-radius:5px; 
+  }
+  .message__link{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-text-size-adjust : 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    color: #003dd8;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .pt-72 {
+    padding-top: 72px;    
+  }
+  .warning {
+    background-image: url("https://raw.githubusercontent.com/aguzhevskaya/iq-option_img/main/warning-bg.png");
+    background-position: center 10px;
+    background-repeat: no-repeat;
+    background-color: #e2f4ff; 
+    padding-bottom: 405px;
+  }
+  .warning__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-text-size-adjust : 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    color: #7c868d;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
+  .warning__text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-text-size-adjust : 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    color: #7c868d;
+    text-align: center;
+    padding-bottom: 65px;
+  }
+  .warning__link {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-text-size-adjust : 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    color: #7c868d;
+  }
+
+
+  @media only screen and (max-width: 600px) {      
+    .adaptive-image {
+     width: 100% !important;
+     height: auto !important;
+    }
+    .pad-105-100 {
+      padding-left: 40px !important;
+    }
+    .intro__title {
+      padding-top: 70px !important;
+      font-size: 50px !important;
+      line-height: 64px !important;
+    }
+    .intro__subtitle{
+      font-size: 23px !important;
+      line-height: 28px !important;
+    }
+    .pad-70-100 {
+        padding-top: 40px !important;
+        padding-left: 40px !important;
+    }
+    .pad-75-85-87-85 {
+        padding-top: 35px !important;
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+        padding-bottom: 47px !important;
+    }
+     .content__title {
+      font-size: 24px !important;
+      line-height: 28px !important;
+      padding-bottom: 20px !important;
+     }
+    .content__text {
+      font-size: 22px !important;
+      line-height: 28px !important;
+      padding-bottom: 30px !important;
+    }
+    .column {
+      float: none !important;
+      display: block !important;
+      width: 100% !important;
+    }
+    .message__text{
+      font-size: 24px !important;
+      line-height: 28px !important;
+      padding-top: 30px !important;
+      padding-bottom: 30px !important;
+      padding-right: 30px  !important;
+      padding-left: 30px !important;
+    }
+    .message__text br {
+      display: none !important;
+    }
+    .message__link-wrap {
+      width: 460px !important;
+    }
+    .message__link {
+      font-size: 32px !important;
+      line-height: 41px !important;
+    }
+    .warning__column {
+      display: inline-block !important;
+      width: auto !important;
+    }
+    .warning__title{
+      font-size: 22px !important;
+      line-height: 26px !important;
+      padding-bottom: 10px !important;
+    }
+    .warning__text {
+      font-size: 22px !important;
+      line-height: 32px !important;
+      padding-right: 30px !important;
+      padding-left: 30px !important;
+      padding-bottom: 45px !important;
+    }
+    .warning__link {
+      font-size: 22px !important;
+    }
+    .warning__text br {
+      display: none !important;
+    }
+     .column__text {
+        text-align: center !important;
+        padding-bottom: 30px !important;
+        font-size: 22px !important;
+        line-height: 28px !important;
+     }
+     .pb-30 {
+      padding-bottom: 10px !important;
+     }
+     .pt-72 {
+      padding-top: 0 !important;
+     }
+    .pad-58-60 {
+      padding-top: 38px !important;
+      padding-bottom: 38px !important;
+      padding-right: 40px !important;
+      padding-left: 40px !important;
+    }
+ }
+  </style>
+  
+</head>
+
+  <body>
+    <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; background-color: #ffffff;">
+      <tr>
+        <td align="center">
+          <table class="main" width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td>
+                <table class="intro" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                   <td class="pad-105-100">
+                     <img class="img-reset" src="https://raw.githubusercontent.com/aguzhevskaya/iq-option_img/main/logo.png" alt="лого" width="300" height="64" />
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="intro__title pad-105-100">
+                     <span class="intro__title intro__title--span">3 Easy Steps</span><br/>  to Improve your <br/> Chance of Success 
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="intro__subtitle pad-70-100">These steps are simple, effective and 100% free. </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>    
+            <tr>
+              <td class="pad-58-60" align="center">
+                <table class="content-table" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td class="pad-75-85-87-85" align="center">
+                      <table class="content" cellspacing="0" cellpadding="0" border="0"  width="100%">
+                        <tr> 
+                          <td class="content__title">1. Play around with the Price Chart</td>
+                        </tr>
+                        <tr>
+                          <td  class="pb-30">
+                            <img class="img-reset" src="https://raw.githubusercontent.com/aguzhevskaya/iq-option_img/main/content-decor.jpg" alt="декоративнаый элемент" width="149" height="5" />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="content__text">Did you know you can adjust the price chart to your personal preference and trading goals? So simple, yet so <b>useful for making more accurate predictions</b></td>
+                        </tr>
+                        <tr>
+                          <td align="center" style="padding-bottom: 75px;"><img class="img-reset adaptive-image" src="https://raw.githubusercontent.com/aguzhevskaya/iq-option_img/main/content-img.jpg" alt="скриншот" width="762" height="427"></td>
+                        </tr>
+                        <tr>
+                          <td class="content__title" align="center">You Can:</td>
+                        </tr>
+                        <tr>
+                          <td style="font-size: 0;" align="center">
+                                                  <!--[if mso]>
+                              <table border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                      <td width="290" style="vertical-align:top; font-size:0; line-height:0;">
+                          <![endif]-->
+                             <div class="column" style="float: left;" align="center"> 
+                                 <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                  <tr>
+                                    <td class="pb-30" align="center">
+                                      <img class="img-reset" src="https://raw.githubusercontent.com/aguzhevskaya/iq-option_img/main/column-img1.png" alt="иконка" width="55" height="74" />
+                                    </td>
+                                  </tr>
+                                   <tr>
+                                     <td class="column__text"><b>Hold and drag</b> <br/>  the chart to review <br/> earlier price dynamic.</td>
+                                   </tr>
+                                </table>
+                             </div>
+          <!--[if mso]>
+                </td>
+                <td width="290" style="vertical-align:top; font-size:0; line-height:0;">
+    <![endif]-->          
+                              <div class="column" align="center"> 
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                  <tr>
+                                    <td class="pb-30" align="center">
+                                      <img class="img-reset" src="https://raw.githubusercontent.com/aguzhevskaya/iq-option_img/main/column-img2.png" alt="иконка" width="54" height="74" />
+                                    </td>
+                                  </tr>
+                                   <tr>
+                                     <td class="column__text"><b>Scale the chart </b> by <br/> changing the display <br/> period between 30 <br/> days and 30 minutes.</td>
+                                   </tr>
+                                </table>
+                               </div>
+          <!--[if mso]>
+                </td>
+                <td width="290" style="vertical-align:top; font-size:0; line-height:0;">
+    <![endif]--> 
+                                <div class="column" style="float: right;" align="center"> 
+                                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                      <td class="pb-30" align="center">
+                                        <img class="img-reset" src="https://raw.githubusercontent.com/aguzhevskaya/iq-option_img/main/column-img3.png" alt="иконка" width="53" height="74" />
+                                      </td>
+                                    </tr>
+                                     <tr>
+                                       <td class="column__text"><b>Choose the type of <br/> chart</b> you want to use.<br/> Do you prefer Lines,<br/> Candles or Bars?</td>
+                                     </tr>
+                                  </table>
+                                </div>
+          <!--[if mso]>
+                </td>
+            </tr>
+        </table>
+    <![endif]-->
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table class="message" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td style="padding-top: 81px;" align="center">
+                      <img class="img-reset" src="https://raw.githubusercontent.com/aguzhevskaya/iq-option_img/main/message-img-1.png" alt="декоративный элемент" width="84" height="38" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #003dd8;" align="center">
+                      <img class="img-reset" src="https://raw.githubusercontent.com/aguzhevskaya/iq-option_img/main/message-img-2.png" alt="декоративный элемент" width="84" height="38" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 0;  background-color: #003dd8" align="center">
+                      <!--[if mso]>
+                              <table border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                      <td width="960" style="vertical-align:top; font-size:0; line-height:0;">
+                          <![endif]-->
+                          <div style="display: inline-block; vertical-align: top; max-width: 960px;" align="center"> 
+                             <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                             
+                               <tr>
+                                 <td class="message__text">Read the <b> “3 easy steps towards success in trading”</b> <br/> on the IQ Blog to boost your trading skills.</td>
+                               </tr>
+                            </table>
+                         </div>
+                         <!--[if mso]>
+                </td>
+            </tr>
+        </table>
+    <![endif]-->
+                          
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 0;  background-color: #003dd8; padding-bottom: 65px;" align="center">
+                      <!--[if mso]>
+                              <table border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                      <td width="560" style="vertical-align:top; font-size:0; line-height:0;">
+                          <![endif]-->
+                          <div class="message__link-wrap" align="center"> 
+                             <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                             
+                               <tr>
+                                 <td align="center"><a class="message__link" href="#" target="_blank">Read more </a></td>
+                               </tr>
+                            </table>
+                         </div>
+                         <!--[if mso]>
+                </td>
+            </tr>
+        </table>
+    <![endif]-->
+                          
+                      </td>                    
+                    </tr>
+
+                </table>                      
+              </td>
+            </tr>   
+            <tr>
+              <td class="pt-72" align="center">
+                <table class="warning" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td class="warning__title" align="center">
+                      General Risk Warning:
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="warning__text" align="center">The financial services provided by this website carry a high level of risk <br/>and can result in the loss of all your funds. You should never invest <br/> money that you can not afford to lose.</td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 0;" align="center">
+                                                  <!--[if mso]>
+                              <table border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                      <td width="960" style="vertical-align:top; font-size:0; line-height:0;">
+                          <![endif]-->
+                       <div class="column warning__column" align="center"> 
+                           <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td  style="padding-right: 15px; border-right: 2px solid #7c868d"><a class="warning__link" href="#">Privacy and Policy </a></td>
+                            </tr>
+                          </table>
+                       </div>
+                                      <!--[if mso]>
+                                            </td>
+                                            <td width="960" style="vertical-align:top; font-size:0; line-height:0;">
+                                    <![endif]-->          
+                        <div class="column warning__column" align="center"> 
+                          <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td style="padding-left: 15px;"><a class="warning__link"  href="#">Unsubscribe</a></td>
+                            </tr>
+                          </table>
+                         </div>
+                                <!--[if mso]>
+                                    </td>
+                                </tr>
+                            </table>
+                        <![endif]-->
+                    </td>
+                  </tr>
+                  
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    
+  </body>
+
+
+</html>
